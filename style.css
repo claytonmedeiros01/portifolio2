@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #ffffffc3;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: #ffffff84;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 380px;
+    margin: 0;
+    padding: 10px;
+  }
+.social-icons {
+    position: relative;
+    position: absolute;
+    top: 1;
+    right: -800px;
+    margin: 0;
+    padding: 10px;
+
+  }
+  .im{
+    position: relative;
+  }
+  
+  .im img {
+    position: absolute;
+    top: -140px; /* Distância do topo */
+    left: 300px; /* Distância da esquerda */
+    width: 150px; /* Largura desejada */
+  height: auto; /* Altura automática (mantém a proporção original) */
+  }
+
+ 
